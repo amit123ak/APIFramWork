@@ -1,11 +1,7 @@
-Feature: Login Functionality 
-
-Scenario: Users Login with Valid Credential
-Given User is on the login page
-When User is enter "<username>" and "<password>"
-And User click on login button 
-Then User is Navigated to the home Page 
-Examples: 
-|username |password |
-|student  |Password123 |
-|Student1 |Password1   |
+Feature: Login into tutorials ninja application
+@ALL @ninja
+Scenario: Login into Application with vaild credential
+Given I navigate to application login page 
+When I entered the email as "amitgondcse@gmail.com" and password as "amit@123"
+And I click on the login button
+Then User should able to login
