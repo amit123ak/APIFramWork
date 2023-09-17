@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-17T12:40:44 IST" name="Default suite" finished-at="2023-09-17T12:40:49 IST" duration-ms="4878">
+  <suite started-at="2023-09-17T13:28:52 IST" name="Default suite" finished-at="2023-09-17T13:28:57 IST" duration-ms="5282">
     <groups>
     </groups>
-    <test started-at="2023-09-17T12:40:44 IST" name="Default test" finished-at="2023-09-17T12:40:49 IST" duration-ms="4878">
-      <class name="BasicRestTest.GetPostValidation">
-        <test-method signature="PostApiValidation()[pri:0, instance:BasicRestTest.GetPostValidation@3e8c3cb]" started-at="2023-09-17T12:40:44 IST" name="PostApiValidation" finished-at="2023-09-17T12:40:48 IST" duration-ms="3619" status="PASS">
+    <test started-at="2023-09-17T13:28:52 IST" name="Default test" finished-at="2023-09-17T13:28:57 IST" duration-ms="5282">
+      <class name="BasicRestTest.PutPatchAndDeleteValidation">
+        <test-method signature="DeleteAPiValidation()[pri:0, instance:BasicRestTest.PutPatchAndDeleteValidation@543295b0]" started-at="2023-09-17T13:28:52 IST" name="DeleteAPiValidation" finished-at="2023-09-17T13:28:55 IST" duration-ms="3229" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PostApiValidation -->
-        <test-method signature="getAPiValidation()[pri:0, instance:BasicRestTest.GetPostValidation@3e8c3cb]" started-at="2023-09-17T12:40:48 IST" name="getAPiValidation" finished-at="2023-09-17T12:40:49 IST" duration-ms="1199" status="PASS">
+        </test-method> <!-- DeleteAPiValidation -->
+        <test-method signature="PatchAPiValidation()[pri:0, instance:BasicRestTest.PutPatchAndDeleteValidation@543295b0]" started-at="2023-09-17T13:28:55 IST" name="PatchAPiValidation" finished-at="2023-09-17T13:28:56 IST" duration-ms="1305" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAPiValidation -->
-      </class> <!-- BasicRestTest.GetPostValidation -->
+        </test-method> <!-- PatchAPiValidation -->
+        <test-method signature="PutApiValidation()[pri:0, instance:BasicRestTest.PutPatchAndDeleteValidation@543295b0]" started-at="2023-09-17T13:28:56 IST" name="PutApiValidation" finished-at="2023-09-17T13:28:57 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutApiValidation -->
+      </class> <!-- BasicRestTest.PutPatchAndDeleteValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
