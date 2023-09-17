@@ -2,7 +2,7 @@ package BasicRestTest;
 
 import org.testng.annotations.Test;
 
-import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
 import io.restassured.response.ResponseOptions;
 
 public class ListUserAPI {
@@ -10,7 +10,7 @@ public class ListUserAPI {
 	@Test
 	public void Test1()
 	{
-		ResponseOptions response=	RestAssured.get("https://reqres.in/api/users?page=2");
+		ResponseOptions response=	get("https://reqres.in/api/users?page=2");
 		
 		System.out.println(response.getStatusCode());
 		System.out.println(response.getTime());
@@ -26,7 +26,10 @@ public class ListUserAPI {
 	     @Test
          public void Test2()
          {
-        	 
+        	  baseURI="https://reqres.in";
+        	  
+        	 given().get("/api/users?page=2")
+        	 .then().statusCode(200);
         	 
          }
 }
