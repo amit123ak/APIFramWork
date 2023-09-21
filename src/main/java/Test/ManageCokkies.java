@@ -28,13 +28,32 @@ public class ManageCokkies {
 		Set<Cookie> cookies= driver.manage().getCookies();
 		
 		
-           System.out.println(cookies.size());
+           System.out.println("Before size="+cookies.size());
            
            for(Cookie ck:cookies)
            {
         	   System.out.println(ck.getName() + " "+ ck.getValue());
            }
-	      
+	   
+	    
+	    System.out.println( driver.manage().getCookieNamed("INR"));
+	    
+	    
+	    
+	    Cookie cookie=new Cookie("abc","Amezon.in");
+	    driver.manage().addCookie(cookie);
+	    
+		Set<Cookie> cook= driver.manage().getCookies();
+
+        System.out.println("After size="+cook.size());
+        
+        for(Cookie ck:cook)
+        {
+     	   System.out.println(ck.getName() + " "+ ck.getValue());
+        }
+	   
+	    
+	    driver.close();
 
 	}
 
