@@ -53,8 +53,24 @@ public class ManageCokkies {
         }
 	   
 	    
-	    driver.close();
+	    driver.manage().deleteCookie(cookie);
+	    
+	
+	   
+	    
+		Set<Cookie> cooks= driver.manage().getCookies();
+
+        System.out.println("After Delete size="+cook.size());
+        
+        for(Cookie ck:cooks)
+        {
+     	   System.out.println(ck.getName() + " "+ ck.getValue());
+        }
+	   
+	    
 
 	}
+	
+
 
 }
