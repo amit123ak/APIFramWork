@@ -55,6 +55,8 @@ public class ManageCokkies {
 	    
 	    driver.manage().deleteCookie(cookie);
 	    
+	    driver.manage().deleteAllCookies();
+	    
 	
 	   
 	    
