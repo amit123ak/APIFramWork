@@ -24,10 +24,9 @@ String res="{\"firstName\":\"John\",\"lastName\":\"doe\",\"age\":26,\"address\":
 
      
 
-     Object nu[]= JsonPath.read(res, "$.phoneNumbers[0:2].number");
+     Object nu =JsonPath.read(res, "$.phoneNumbers[0:2].number");
      
-      System.out.println(nu[0]);
-    
+      System.out.println(nu);
      
 	}
 

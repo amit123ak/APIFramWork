@@ -38,6 +38,18 @@ public class ParseJsonUsingJsonPath {
 		System.out.println(JsonPath.read(response, "$.employee["+i+"].salary"));
 		System.out.println(JsonPath.read(response, "$.employee["+i+"].married"));
 	     }
+	     
+	     
+	     System.out.println("==================================================");
+		  System.out.println("Contractor ================================================");
+		
+		     for( int i=0;i<2;i++)
+		     {
+		    	 System.out.println(JsonPath.read(response, "$.contractors["+i+"].firstName"));
+		    	 System.out.println(JsonPath.read(response, "$.contractors["+i+"].lastName"));
+		    	 System.out.println(JsonPath.read(response, "$.contractors["+i+"].contractFrom"));
+		    	 System.out.println(JsonPath.read(response, "$.contractors["+i+"].contractTo"));
+		     }
 		
 
 	}
