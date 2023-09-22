@@ -25,7 +25,19 @@ public class ParseJsonUsingJsonPath {
 		System.out.println( JsonPath.read(response, "$.pincodesOfCityOffice["+i+"]" ));
 	}
 	
+	  System.out.println("==================================================");
+	  System.out.println("Printed Employee Details");
+	
+	     for( int i=0;i<3;i++)
+	     {
 		
+		System.out.println(JsonPath.read(response, "$.employee["+i+"].firstName"));
+		System.out.println(JsonPath.read(response, "$.employee["+i+"].lastName"));
+		System.out.println(JsonPath.read(response, "$.employee["+i+"].gender"));
+		System.out.println(JsonPath.read(response, "$.employee["+i+"].age"));
+		System.out.println(JsonPath.read(response, "$.employee["+i+"].salary"));
+		System.out.println(JsonPath.read(response, "$.employee["+i+"].married"));
+	     }
 		
 
 	}
