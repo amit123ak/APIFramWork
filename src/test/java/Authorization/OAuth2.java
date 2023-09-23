@@ -7,7 +7,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Oth2 {
+public class OAuth2 {
 	
 	public static String access_token;
 	
@@ -54,6 +54,8 @@ public class Oth2 {
 		 
 		 spec.baseUri("https://api-m.sandbox.paypal.com");
 		 spec.basePath("/v1/invoicing/invoices");
+
+		 //spec.auth().oauth2(Bearer)        this way i can do also 
 		 spec.queryParam("page", 3);
 		 spec.queryParam("page_size", 4);
 		 spec.queryParam("total_count_required", "true");
