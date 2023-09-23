@@ -16,8 +16,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 //allowSetter is used at the time Serialization Process
 
-@JsonIgnoreProperties(ignoreUnknown = true)
-//@JsonIgnoreProperties(value={"gender","age"},allowSetters=true)
+//@JsonIgnoreProperties(ignoreUnknown = true)
+
+@JsonIgnoreProperties(value={"gender","age"},allowSetters=true)
 public class EmployeeInfo {
 	
 	/*

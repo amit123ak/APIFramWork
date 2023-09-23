@@ -47,7 +47,7 @@ public class EmployeInfoTest {
 		 		+ " \"age\":35,\r\n"
 		 		+ " \"salary\":10000,\r\n"
 		 		+ " \"isMarried\": true,\r\n"
-		 		+ " \"fullNamee\":\"Suresh Mehra Kush\"\r\n"
+		 		+ " \"fullName\":\"Suresh Mehra Kush\"\r\n"
 	
 		 		+ "}";
 		 

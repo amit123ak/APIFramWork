@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-23T16:16:39 IST" name="Default suite" finished-at="2023-09-23T16:16:44 IST" duration-ms="5406">
+  <suite started-at="2023-09-23T22:02:44 IST" name="Default suite" finished-at="2023-09-23T22:02:51 IST" duration-ms="6273">
     <groups>
     </groups>
-    <test started-at="2023-09-23T16:16:39 IST" name="Default test" finished-at="2023-09-23T16:16:44 IST" duration-ms="5406">
-      <class name="Authorization.DigestAuth">
-        <test-method signature="DigestAuth()[pri:0, instance:Authorization.DigestAuth@3e8c3cb]" started-at="2023-09-23T16:16:39 IST" name="DigestAuth" finished-at="2023-09-23T16:16:44 IST" duration-ms="5350" status="PASS">
+    <test started-at="2023-09-23T22:02:44 IST" name="Default test" finished-at="2023-09-23T22:02:51 IST" duration-ms="6273">
+      <class name="DesignComplexJsonPojocClass.RestAssuredE2eTest">
+        <test-method signature="E2EAPITest()[pri:0, instance:DesignComplexJsonPojocClass.RestAssuredE2eTest@563f38c4]" started-at="2023-09-23T22:02:44 IST" name="E2EAPITest" finished-at="2023-09-23T22:02:51 IST" duration-ms="6220" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DigestAuth -->
-      </class> <!-- Authorization.DigestAuth -->
+        </test-method> <!-- E2EAPITest -->
+      </class> <!-- DesignComplexJsonPojocClass.RestAssuredE2eTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
