@@ -12,6 +12,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 //@JsonInclude(Include.NON_DEFAULT)
 //@JsonIgnoreProperties(ignoreUnknown = true)
 
+
+
+//allowSetter is used at the time Serialization Process
+
+@JsonIgnoreProperties(value={"gender","age"},allowSetters=true)
 public class EmployeeInfo {
 	
 	/*
@@ -26,8 +31,10 @@ public class EmployeeInfo {
  "fullName":"Suresh Mehra Kush"
 }
 	 */
+	//JsonProperty(access=JsonProperty.READ_ONLY used for  de Searilazaton  processs to ignore the particular filed 
+	//JsonProperty(access=JsonProperty.Access.WRITE_ONLY ) Is Used for AT TIME OF SERIALAZATION PROCESS
 	
-	//@JsonProperty(access=JsonProperty.Access.WRITE_ONLY)
+	@JsonProperty(access=JsonProperty.Access.WRITE_ONLY)
 	private String lastName;
 	private String gender;
 	private String age;
