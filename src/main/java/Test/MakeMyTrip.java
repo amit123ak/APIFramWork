@@ -29,11 +29,13 @@ public class MakeMyTrip {
 	  WebDriver driver =new ChromeDriver(option);
 	 
 	  driver.get("https://www.makemytrip.com/flights");
+	  driver.manage().deleteAllCookies();
 	  driver.manage().window().maximize();
 	
       driver.navigate().refresh();
 	  driver.navigate().forward();
 	  driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+	  
 	
  driver.findElement(By.xpath("//a[@class='makeFlex hrtlCenter column active']")).click();
 

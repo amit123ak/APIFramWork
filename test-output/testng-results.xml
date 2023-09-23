@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-23T10:34:09 IST" name="Default suite" finished-at="2023-09-23T10:34:13 IST" duration-ms="4366">
+  <suite started-at="2023-09-23T11:53:13 IST" name="Default suite" finished-at="2023-09-23T11:53:18 IST" duration-ms="4809">
     <groups>
     </groups>
-    <test started-at="2023-09-23T10:34:09 IST" name="Default test" finished-at="2023-09-23T10:34:13 IST" duration-ms="4366">
-      <class name="Authorization.BearerToken">
-        <test-method signature="bearerToken()[pri:0, instance:Authorization.BearerToken@563f38c4]" started-at="2023-09-23T10:34:09 IST" name="bearerToken" finished-at="2023-09-23T10:34:13 IST" duration-ms="4302" status="PASS">
+    <test started-at="2023-09-23T11:53:13 IST" name="Default test" finished-at="2023-09-23T11:53:18 IST" duration-ms="4809">
+      <class name="Authorization.APIKeyRest">
+        <test-method signature="weither()[pri:0, instance:Authorization.APIKeyRest@563f38c4]" started-at="2023-09-23T11:53:13 IST" name="weither" finished-at="2023-09-23T11:53:18 IST" duration-ms="4756" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bearerToken -->
-      </class> <!-- Authorization.BearerToken -->
+        </test-method> <!-- weither -->
+      </class> <!-- Authorization.APIKeyRest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
