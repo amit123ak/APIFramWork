@@ -47,21 +47,21 @@ public class EmployeInfoTest {
 		 		+ " \"age\":35,\r\n"
 		 		+ " \"salary\":10000,\r\n"
 		 		+ " \"isMarried\": true,\r\n"
-		 		+ " \"fullName\":\"Suresh Mehra Kush\"\r\n"
+		 		+ " \"fullNamee\":\"Suresh Mehra Kush\"\r\n"
 	
 		 		+ "}";
 		 
 		 
 		 
-		 objectmapper.readValue(ResPayload, EmployeeInfo.class);
+		 EmployeeInfo emp1=	 objectmapper.readValue(ResPayload, EmployeeInfo.class);
 		 
-		 System.out.println("firstName "+ emp.getFirstName());
-		 System.out.println("lastName "+ emp.getLastName());
-		 System.out.println("gender "+ emp.getgender());
-		 System.out.println("age "+ emp.getAge());
-		 System.out.println("salary "+ emp.getsalary());
-		 System.out.println("IsMarried "+ emp.isIsMarried());
-		 System.out.println("fullName "+ emp.getFullName());
+		 System.out.println("firstName "+ emp1.getFirstName());
+		 System.out.println("lastName "+ emp1.getLastName());
+		 System.out.println("gender "+ emp1.getgender());
+		 System.out.println("age "+ emp1.getAge());
+		 System.out.println("salary "+ emp1.getsalary());
+		 System.out.println("IsMarried "+ emp1.isIsMarried());
+		 System.out.println("fullName "+ emp1.getFullName());
 		 
 		 
 		
