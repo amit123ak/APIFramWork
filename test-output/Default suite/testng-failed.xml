@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Authorization.BearerToken">
+      <class name="Authorization.Oth2">
         <methods>
-          <include name="bearerToken"/>
+          <include name="GetItemsList"/>
         </methods>
-      </class> <!-- Authorization.BearerToken -->
+      </class> <!-- Authorization.Oth2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
