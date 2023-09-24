@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Authorization.Oth2">
+      <class name="AddHeaderTest">
         <methods>
-          <include name="GetItemsList"/>
+          <include name="AddHeaders"/>
         </methods>
-      </class> <!-- Authorization.Oth2 -->
+      </class> <!-- AddHeaderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
