@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AddHeaderTest">
+      <class name="ResponseSpecbuilder.ResponseSpecBuilderTest">
         <methods>
-          <include name="AddHeaders"/>
+          <include name="ListUser"/>
         </methods>
-      </class> <!-- AddHeaderTest -->
+      </class> <!-- ResponseSpecbuilder.ResponseSpecBuilderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
