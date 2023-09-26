@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import com.google.gson.JsonObject;
 
 import io.restassured.RestAssured;
+import io.restassured.config.LogConfig;
 import io.restassured.http.ContentType;
 import io.restassured.response.ResponseOptions;
 import io.restassured.specification.RequestSpecification;
@@ -44,7 +45,8 @@ public class BearerToken {
 		
 	//	spec.headers(Token, Token, null)
 	
-		spec.headers("Authorization", Token)
+		spec.headers("Authorization", Token).config(RestAssured.config().logConfig(LogConfig.logConfig().blacklistHeader("Authorization")))
+		.config(RestAssured.config().logConfig(LogConfig.logConfig().blacklistHeader("Content-Type","Authorization","Accept")))
 		.contentType(ContentType.JSON).body(payload.toJSONString()).log().all();
 	ResponseOptions response=	spec.post();
 	
