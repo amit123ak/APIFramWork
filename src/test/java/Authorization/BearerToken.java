@@ -45,7 +45,7 @@ public class BearerToken {
 		
 	//	spec.headers(Token, Token, null)
 	
-		spec.headers("Authorization", Token).config(RestAssured.config().logConfig(LogConfig.logConfig().blacklistHeader("Authorization")))
+		spec.headers("Authorization", Token)
 		.config(RestAssured.config().logConfig(LogConfig.logConfig().blacklistHeader("Content-Type","Authorization","Accept")))
 		.contentType(ContentType.JSON).body(payload.toJSONString()).log().all();
 	ResponseOptions response=	spec.post();

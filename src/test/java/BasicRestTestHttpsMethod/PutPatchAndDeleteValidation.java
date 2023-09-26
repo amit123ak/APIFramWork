@@ -1,4 +1,4 @@
-package BasicRestTest;
+package BasicRestTestHttpsMethod;
 
 import java.util.HashMap;
 import java.util.Map;

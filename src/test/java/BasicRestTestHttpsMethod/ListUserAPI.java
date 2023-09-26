@@ -1,4 +1,4 @@
-package BasicRestTest;
+package BasicRestTestHttpsMethod;
 
 import org.testng.annotations.Test;
 
