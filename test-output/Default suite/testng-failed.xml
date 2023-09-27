@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JSonParserPakage.ParseJsonUsingJsonPathPakage">
+      <class name="JSonParserPakage.ParsedJsonResponseUsingJsonPathFunction">
         <methods>
-          <include name="jsonPathPakage"/>
+          <include name="GetTestAPI"/>
+          <include name="RequestBuikder"/>
         </methods>
-      </class> <!-- JSonParserPakage.ParseJsonUsingJsonPathPakage -->
+      </class> <!-- JSonParserPakage.ParsedJsonResponseUsingJsonPathFunction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
