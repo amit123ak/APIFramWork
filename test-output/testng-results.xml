@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-27T14:44:55 IST" name="Default suite" finished-at="2023-09-27T14:44:59 IST" duration-ms="3174">
+  <suite started-at="2023-10-10T09:15:00 IST" name="Suite" finished-at="2023-10-10T09:15:00 IST" duration-ms="83">
     <groups>
+      <group name="sanity">
+        <method signature="TestNGGrop.login()[pri:0, instance:TestNGFeature.TestNGGrop@79e4c792]" name="login" class="TestNGFeature.TestNGGrop"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-09-27T14:44:55 IST" name="Default test" finished-at="2023-09-27T14:44:59 IST" duration-ms="3174">
-      <class name="Handing.Cokkies.RestAssured.HandleCokies">
-        <test-method signature="CookiesData()[pri:0, instance:Handing.Cokkies.RestAssured.HandleCokies@712625fd]" started-at="2023-09-27T14:44:55 IST" name="CookiesData" finished-at="2023-09-27T14:44:55 IST" duration-ms="12" status="PASS">
+    <test started-at="2023-10-10T09:15:00 IST" name="Test1" finished-at="2023-10-10T09:15:00 IST" duration-ms="83">
+      <class name="TestNGFeature.TestNGGrop">
+        <test-method signature="login()[pri:0, instance:TestNGFeature.TestNGGrop@79e4c792]" started-at="2023-10-10T09:15:00 IST" name="login" finished-at="2023-10-10T09:15:00 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CookiesData -->
-        <test-method signature="CokkiesTest()[pri:0, instance:Handing.Cokkies.RestAssured.HandleCokies@712625fd]" started-at="2023-09-27T14:44:55 IST" name="CokkiesTest" finished-at="2023-09-27T14:44:59 IST" depends-on-methods="Handing.Cokkies.RestAssured.HandleCokies.CookiesData" duration-ms="3104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CokkiesTest -->
-      </class> <!-- Handing.Cokkies.RestAssured.HandleCokies -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- login -->
+      </class> <!-- TestNGFeature.TestNGGrop -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

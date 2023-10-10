@@ -6,6 +6,7 @@ import java.util.Map;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
 
 public class HandleCokies {
 
@@ -29,11 +30,24 @@ public class HandleCokies {
 		.basePath("/cookies/set")
 		.cookie("hello","this is my first cookies")
 		.cookies(cokies)
+		
 		.when()
 		.get().then().assertThat().statusCode(200);
 		
 		
 	}
 	
+
+  @Test
+  public void DeleteCookies()
+  {
+	  RequestSpecification resp=RestAssured.given();
+	  resp.baseUri("http://postman-echo.com");
+	   resp.basePath("/cookies/set");
+	
+	  
+             
+	  
+  }
 	
 }
