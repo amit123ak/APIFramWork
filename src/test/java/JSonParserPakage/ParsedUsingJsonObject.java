@@ -40,8 +40,8 @@ public class ParsedUsingJsonObject {
 		
 		System.out.println(jsonpath.getString("store.bicycle.price"));
 		System.out.println(jsonpath.getDouble("store.bicycle.price"));
+		System.out.println(jsonpath.getString("store.book[0].title"));
 		
-		System.out.println(jsonpath.getString("$.store.book[0].title"));
 
 	}
 
