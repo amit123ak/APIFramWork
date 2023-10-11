@@ -25,8 +25,7 @@ public class EmployeeInfo {
 	 
 {
  "firstName": "Suresh",
- "lastName": "Mehra",
- "gender": "Male",
+ "lastName": "Mehra", "gender": "Male",
  "age":35,
  "Salary":10000,
  "IsMarried": true,
