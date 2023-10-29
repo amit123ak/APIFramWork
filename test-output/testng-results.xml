@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-10T09:17:01 IST" name="Suite" finished-at="2023-10-10T09:17:01 IST" duration-ms="96">
+  <suite started-at="2023-10-29T22:10:17 IST" name="Suite" finished-at="2023-10-29T22:10:18 IST" duration-ms="109">
     <groups>
       <group name="somke">
         <method signature="TestNGGrop.GetTitle()[pri:0, instance:TestNGFeature.TestNGGrop@79e4c792]" name="GetTitle" class="TestNGFeature.TestNGGrop"/>
@@ -11,13 +11,13 @@
         <method signature="TestNGGrop.login()[pri:0, instance:TestNGFeature.TestNGGrop@79e4c792]" name="login" class="TestNGFeature.TestNGGrop"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-10-10T09:17:01 IST" name="Test1" finished-at="2023-10-10T09:17:01 IST" duration-ms="96">
+    <test started-at="2023-10-29T22:10:17 IST" name="Test1" finished-at="2023-10-29T22:10:18 IST" duration-ms="109">
       <class name="TestNGFeature.TestNGGrop">
-        <test-method signature="GetTitle()[pri:0, instance:TestNGFeature.TestNGGrop@79e4c792]" started-at="2023-10-10T09:17:01 IST" name="GetTitle" finished-at="2023-10-10T09:17:01 IST" duration-ms="14" status="PASS">
+        <test-method signature="GetTitle()[pri:0, instance:TestNGFeature.TestNGGrop@79e4c792]" started-at="2023-10-29T22:10:18 IST" name="GetTitle" finished-at="2023-10-29T22:10:18 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetTitle -->
-        <test-method signature="login()[pri:0, instance:TestNGFeature.TestNGGrop@79e4c792]" started-at="2023-10-10T09:17:01 IST" name="login" finished-at="2023-10-10T09:17:01 IST" duration-ms="7" status="PASS">
+        <test-method signature="login()[pri:0, instance:TestNGFeature.TestNGGrop@79e4c792]" started-at="2023-10-29T22:10:18 IST" name="login" finished-at="2023-10-29T22:10:18 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
