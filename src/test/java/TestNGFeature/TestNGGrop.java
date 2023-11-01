@@ -1,5 +1,6 @@
 package TestNGFeature;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestNGGrop {
@@ -10,6 +11,7 @@ public class TestNGGrop {
 	{
 		
 		System.out.println("this is sanity testcase for login functionality ");
+		Assert.assertTrue(false);
 	}
 
 	@Test(groups= {"somke"})
