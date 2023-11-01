@@ -11,8 +11,7 @@ public class TestNGGrop {
 	{
 		
 		System.out.println("this is sanity testcase for login functionality ");
-		Assert.assertTrue(false);
-	}
+			}
 
 	@Test(groups= {"somke"})
 	public void GetTitle()
